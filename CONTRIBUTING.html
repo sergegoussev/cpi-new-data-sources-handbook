@@ -375,6 +375,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#contributing-to-the-new-data-sources-handbook" id="toc-contributing-to-the-new-data-sources-handbook" class="nav-link active" data-scroll-target="#contributing-to-the-new-data-sources-handbook">Contributing to the New Data Sources handbook</a></li>
   <li><a href="#how-to-contribute" id="toc-how-to-contribute" class="nav-link" data-scroll-target="#how-to-contribute">How to contribute</a></li>
   <li><a href="#code-of-conduct" id="toc-code-of-conduct" class="nav-link" data-scroll-target="#code-of-conduct">Code of Conduct</a></li>
+  <li><a href="#quick-tips-on-the-repository-structure" id="toc-quick-tips-on-the-repository-structure" class="nav-link" data-scroll-target="#quick-tips-on-the-repository-structure">Quick tips on the repository structure</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/UN-Task-Team-for-Scanner-Data/cpi-new-data-sources-handbook/edit/main/CONTRIBUTING.md" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/UN-Task-Team-for-Scanner-Data/cpi-new-data-sources-handbook/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
@@ -397,6 +398,21 @@ ul.task-list li input[type="checkbox"] {
 <section id="code-of-conduct" class="level1">
 <h1>Code of Conduct</h1>
 <p>As a contributor, help keep the community open, inclusive, and collaborative. Read the <a href="./CODE_OF_CONDUCT.html">code of conduct</a> for more details.</p>
+</section>
+<section id="quick-tips-on-the-repository-structure" class="level1">
+<h1>Quick tips on the repository structure</h1>
+<p>If you are making consequential changes (such as adding new materials), please keep the following structure in mind and add your files to the relevant folder.</p>
+<pre><code>├── handbook                # Where main handbook content is stored
+│   ├── images              # Folder where all images and files that generate images (such as 
+│   │                         draw.io files) are stored (in sub-folders)
+│   └── *                   # Grouped content (such as classification) is grouped into a sub-folder
+│
+├── training                # Where the overview of training materials is stored
+│
+├── notebooks               # Where notebooks with code examples are stored
+│
+└── about                   # Where administrative project pages are stored
+</code></pre>
 
 
 </section>
