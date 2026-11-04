@@ -2309,7 +2309,7 @@
     "text": "Who are the UN Task Team on Scanner data? We are members of the price statistics community, working to simplify the work of the broader community to adopt new (i.e. alternative) data sources. How we govern our group is key to ensure we add value and use each others’ time effectively.\n\n\n\n\n\n\nWe see governance as the processes and norms used by a group to deliver useful products and services to a broader community, by means of fostering direction and focus of enthusiastic contributors towards shared goals.\n\n\n\nBreaking that out a little, we see the key aspects as:\n\nDeveloping value adding products – with the goal to make it easier for price statisticians to understand, research, or implement alternative data to enhance their national statistical outputs.\nHelping focus the best and brightest in our community to contribute and thus help the community itself – as our community can only learn from each other.\nWorking to instill transparency in the direction and the strategies used – as a means of validating that products created or maintained are adding value, the work being done is headed in the right direction, and making it easy to engage and participate\n\n\n\nWe break down the overall consumer price statistics community into three broad levels to specify how Task Team contributors interact with the wider community:\n\nThe casual and passive members of the price statistics community – includes everyone who work in the discipline of price statistics that passively consume our products (if they are aware of them). This is the main group we are trying to support. Some passive members of the community may engage with us casually, either on their own interest or responding to our consultations.\n\nWe both welcome contributions from this group and at time seek to engage this group (such as to validate some of our more nuanced content)\n\nActive or contributing members – are the maintainers and contributors to our content. This group either creates new content and products or sustains them to ensure they stay relevant and continue to add value.\nThe steering group – is a nominated volunteer group that sets strategic Task Team level direction, evaluate gaps and launch workstreams to address them, advocates for the group, and sets norms that help the broader community.\n\nFigure 1 showcases this breakdown visually.\n\n\n\n\n\n\n\n\nFigure 1: How the overall consumer price statistics community breaks out into various groups.",
     "crumbs": [
       "About us",
-      " - Governance and how to contribute"
+      " - Governance and the context of the broader community"
     ]
   },
   {
@@ -2320,7 +2320,7 @@
     "text": "We break down the overall consumer price statistics community into three broad levels to specify how Task Team contributors interact with the wider community:\n\nThe casual and passive members of the price statistics community – includes everyone who work in the discipline of price statistics that passively consume our products (if they are aware of them). This is the main group we are trying to support. Some passive members of the community may engage with us casually, either on their own interest or responding to our consultations.\n\nWe both welcome contributions from this group and at time seek to engage this group (such as to validate some of our more nuanced content)\n\nActive or contributing members – are the maintainers and contributors to our content. This group either creates new content and products or sustains them to ensure they stay relevant and continue to add value.\nThe steering group – is a nominated volunteer group that sets strategic Task Team level direction, evaluate gaps and launch workstreams to address them, advocates for the group, and sets norms that help the broader community.\n\nFigure 1 showcases this breakdown visually.\n\n\n\n\n\n\n\n\nFigure 1: How the overall consumer price statistics community breaks out into various groups.",
     "crumbs": [
       "About us",
-      " - Governance and how to contribute"
+      " - Governance and the context of the broader community"
     ]
   },
   {
@@ -2331,7 +2331,7 @@
     "text": "The casual and passive members\nThe broader community is made up of all members of the discipline, whether they work for the National Statistical Office producing consumer price statistics, a central bank that leverages these outputs, an academic or researcher, or anyone else. This community can be broken broken up into two sub-groups.\n\nPassive community members\nPassive community members consume outputs created by the Task Team, but do not typically interact. They may not even be aware of the material – which is part of our advocacy efforts.\nFor those who are aware, they may read and even use our content without interacting with us. We seek to interact with this group periodically (such as to survey them or engage them directly during price statistics conferences).\n\n\nCasual (or one-off) contributors\nPassive community members who see issues and want to participate periodically, are encouraged to participate and contribute to our content directly. They may flag issues (whether trivial like spelling mistakes or more consequential such as missing content), and may participate in drafting content directly. The most experienced ones of this group we try to encourage to become regular contributors (either on their own or by becoming members of the Task Team).\nWe periodically engage with experts in this community to validate nuanced or challenging aspects. For instance the most experienced price index experts may not actively contribute to our content directly, but we try to engage with them to ensure that our content provides grounded and trustworthy recommendations.",
     "crumbs": [
       "About us",
-      " - Governance and how to contribute"
+      " - Governance and the context of the broader community"
     ]
   },
   {
@@ -2342,7 +2342,7 @@
     "text": "Active or contributing members\nThose who seek to actively participate in our content tend to do so more regularly and are granted rights to our repositories to support the work.\n\nActive contributors\nContributors to our content can be either:\n\nIndividual contributors (ICs) working on their own (or in a self-organized fashion with other ICs) to develop or improve content. For instance they raised ideas through the contributing process and got a green light to develop material. They may be regular or semi-regular contributors.\n\nAs our projects are fundamentally open-source community driven projects, we welcome ideas for contributions!\n\nIndividual contributors working with others in a workstream launched by the steering group to address a specific need or create a specific product/output. ICs are typically recruited to join a workstream based on their competencies and experiences in their full time job.\n\nThis group is the core of regular contributors on the Task Team, as most contributions and the majority of outputs developed by the Task Team have been made by this group!\n\n\n\n\n\n\n\n\nNote\n\n\n\nDepending on bandwidth and skill sets of IC volunteers, the Steering Group may coordinate the hiring of consultants as ICs for specific tasks.\n\n\n\n\nProject Managers or coordinators\nManaging contributions and organizing workstreams is a key activity that ensures that community contribution are triaged and content is created in alignment with stated goals. There are two sub-types possible:\n\nMaintainers – help triage various activities (such as Pull Requests or Issues – see contributing process for more details). This indispensable group helps make sure materials are sustained and enhanced lightly over time.\n\nMaintainers have rights to approve PRs or to assign issues or PRs to other ICs / Steering committee to weigh in.\n\nProject Managers (i.e. Workstream leads) – help lead individual workstreams to ensure that the goals of that workstream stays on track.\n\nWorkstream leads also have the right to approve PRs, and typically weight in on issues and discussions.",
     "crumbs": [
       "About us",
-      " - Governance and how to contribute"
+      " - Governance and the context of the broader community"
     ]
   },
   {
@@ -2353,7 +2353,7 @@
     "text": "Steering Committee\nFinally, the steering committee is a body that meets regularly to set direction, plan each year, and ensure that norms and processes are followed.\nThe steering committee is made up of workstream leads and is supported by the UN Secretariat and the UN Regional Hub in Brazil (IBGE).\n\nThe steering group is fundamentally accountable for the quality and trustworthiness of the materials/products created by the whole group. They have owner role on Task Team products.",
     "crumbs": [
       "About us",
-      " - Governance and how to contribute"
+      " - Governance and the context of the broader community"
     ]
   },
   {
