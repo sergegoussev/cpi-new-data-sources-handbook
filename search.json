@@ -81,7 +81,7 @@
     "href": "about/contributing.html",
     "title": "How to contribute",
     "section": "",
-    "text": "Welcome! Thank you for your interest to contribute to this handbook.",
+    "text": "Welcome! Thank you for your interest to contribute to this handbook.\nContributions can range from correcting a broken link to proposing a new chapter or methodological approach.\nOn this page, we go through the overall process of contributing, as well as how project managers / maintainers will interact with you, depending on what you’re doing.",
     "crumbs": [
       "About and how to contribute",
       "Contributing",
@@ -89,47 +89,11 @@
     ]
   },
   {
-    "objectID": "about/contributing.html#semantic-versioning",
-    "href": "about/contributing.html#semantic-versioning",
+    "objectID": "about/contributing.html#step-0-make-the-change-directly-for-trivial-changes",
+    "href": "about/contributing.html#step-0-make-the-change-directly-for-trivial-changes",
     "title": "How to contribute",
-    "section": "Semantic versioning",
-    "text": "Semantic versioning\nWe use semantic versioning to guide how changes to the handbook are classified.\n\n\n\nTable 1: Categories of contribution\n\n\n\n\n\n\n\n\n\n\n\nLevel\nExamples\nDefault route\nReview expectation\n\n\n\n\nPATCH\nSpelling, links, formatting, bibliography and other non substantive corrections\nCorrection Request issue\nTechnical Secretariat review and merge once automated and editorial checks pass\n\n\nMINOR\nCase study, expanded example, factual clarification, evidence or code revision that does not change the overall scope\nContent Enhancement issue followed by a community, Task Team or Secretariat pull request\nRelevant peer review and Steering Group approval\n\n\nMAJOR\nNew chapter, substantial methodological change, new data source, major restructuring or new training module\nHandbook Change Proposal issue, followed by a Task Team workstream, technical lead or consultant role\nDocumented peer review and Steering Group level approval",
-    "crumbs": [
-      "About and how to contribute",
-      "Contributing",
-      "How to contribute"
-    ]
-  },
-  {
-    "objectID": "about/contributing.html#choosing-an-issue-template",
-    "href": "about/contributing.html#choosing-an-issue-template",
-    "title": "How to contribute",
-    "section": "Choosing an issue template",
-    "text": "Choosing an issue template\nAll proposed changes should begin with a GitHub issue. This allows the proposal to be discussed, classified and assigned to the appropriate contribution route before work begins.\nSelect the issue template that best matches the scope of the proposed change:\n\n\n\nTable 2: Issue templates\n\n\n\n\n\n\n\n\n\n\nIssue template\nWhen to use it\nTypical outcome\n\n\n\n\nCorrection Request (PATCH)\nSpelling mistakes, broken links, formatting problems, citation updates and other non substantive corrections\nSecretariat review and implementation\n\n\nContent Enhancement (MINOR)\nAdditional examples, case studies, explanations, evidence, resources or code that do not change the overall scope of the handbook\nContributor or Secretariat development, followed by relevant review and approval\n\n\nHandbook Change Proposal (MAJOR)\nNew methodology, a new chapter, substantial restructuring, a new data source or changes to existing recommendations\nTask Team discussion, documented peer review and formal approval\n\n\nDiscussion / Guidance Request\nQuestions, early ideas or proposals that require discussion before the appropriate route can be determined\nGuidance or discussion, potentially followed by raising a PATCH, MINOR or MAJOR issue\n\n\n\n\n\n\nCreate a new issue using an issue template.\nIf you are unsure which category applies, use the Discussion / Guidance Request template. The Secretariat can help determine the most appropriate route.\nFor PATCH issues, the Technical Secretariat will implement an approved correction.\nFor MINOR and MAJOR issues, contributors can indicate whether they:\n\nintend to prepare and submit a pull request if the issue is approved;\nwould like support developing a pull request;\nwould like the Technical Secretariat to take the proposal forward; or\nare raising the proposal for discussion before deciding how it should be implemented.\n\n\n\n\n\n\n\nTipYou do not need to submit a pull request\n\n\n\nYou can contribute to the handbook without making changes directly in GitHub.\nWhen raising a MINOR or MAJOR issue, indicate whether you would like to develop the change yourself, work with others, or ask the Technical Secretariat to take the proposal forward.",
-    "crumbs": [
-      "About and how to contribute",
-      "Contributing",
-      "How to contribute"
-    ]
-  },
-  {
-    "objectID": "about/contributing.html#archiving-releases-to-zenodo",
-    "href": "about/contributing.html#archiving-releases-to-zenodo",
-    "title": "How to contribute",
-    "section": "Archiving releases to Zenodo",
-    "text": "Archiving releases to Zenodo\nWe archive selected releases of the repository in Zenodo.\nWhen the handbook has accumulated sufficient consequential changes since the previous archived version, such as a major change or a collection of minor changes, we create a new GitHub release. The GitHub and Zenodo integration then archives a copy of that release in Zenodo.\nThe live handbook may therefore include changes made since the latest archived and citable version. Users who need a fixed version for citation should use the relevant archived release.\nYou can view previous handbook releases.",
-    "crumbs": [
-      "About and how to contribute",
-      "Contributing",
-      "How to contribute"
-    ]
-  },
-  {
-    "objectID": "about/contributing.html#git-workflow",
-    "href": "about/contributing.html#git-workflow",
-    "title": "How to contribute",
-    "section": "Git workflow",
-    "text": "Git workflow\nContributions that require changes to the repository generally follow a pull request process, similar to the approach described by The Turing Way.\nA pull request is not required for every issue. In particular, the Secretariat will normally implement straightforward PATCH corrections. For MINOR and MAJOR changes, the implementation route should be agreed through the relevant issue before substantial work begins.",
+    "section": "Step 0: Make the change directly (for trivial changes)",
+    "text": "Step 0: Make the change directly (for trivial changes)\nBefore starting out, think through the scale of the change you see needing to be made. If you see a trivial issue but one that would help (say a spelling mistake, a broken link, a formatting issues, or something else non substantive) – feel free to just submit a Pull Request directly!\n\n\n\n\n\n\nNoteWe want simple changes to be simple to make!\n\n\n\nSmall changes are trivial to make, and maintainers / project managers of the handbook will merge them in quickly.\n\n\n\n\n\n\n\n\nTipCool, how do I do this?\n\n\n\nSee Step 2 for more details.",
     "crumbs": [
       "About and how to contribute",
       "Contributing",
@@ -141,7 +105,7 @@
     "href": "about/contributing.html#step-1-start-with-an-issue",
     "title": "How to contribute",
     "section": "Step 1: Start with an issue",
-    "text": "Step 1: Start with an issue\nBefore starting any work, review the open issues to see whether the topic has already been raised. If a relevant issue already exists, add any further information or participate in the existing discussion rather than creating a duplicate.\nIf the topic has not been raised, create a new issue using the most appropriate template:\n\nCorrection Request (PATCH) for non substantive corrections;\nContent Enhancement (MINOR) for additions or improvements to existing content;\nHandbook Change Proposal (MAJOR) for substantial methodological, structural or governance changes; or\nDiscussion / Guidance Request if you would like feedback or are unsure how the idea should be classified.\n\nIn the issue, explain the change or question as clearly as possible and include relevant links, references, examples or supporting material.\nFor MINOR and MAJOR changes, indicate whether you intend to submit a pull request, would like support developing one, or would prefer the Technical Secretariat to coordinate the work.",
+    "text": "Step 1: Start with an issue\nBefore making any changes, its a great idea to review open (and older closed) issues to see whether the topic has already been raised, discussed, is in progress or was closed. If a relevant issue already exists, add any further information or participate in the existing discussion rather than creating a duplicate.\nIf you create a new issue, explain the change or question as clearly as possible and include relevant links, references, examples or supporting material.\n\n\n\n\n\n\nTipWe encourage you to participate directly!\n\n\n\nOur issue templates will ask whether you are just raising the issue for our awareness or if you want to participate in drafting it yourself. If you are up for it, our maintainers will assign the issue to you directly after helping validate whether the idea would be accepted! If you are not, keep an eye on the issue you submitted. While we appreciate you raising issues, the Individual Contributor that eventually works on the idea you raised may ping you with questions or follow ups.\nNote that if your idea involves a considerable change and would require collaboration with other experts or their review before merging, our maintainers / project managers may see your idea as something that should be done as a Task Team Workstream. In this case, we will invite you to join the team!",
     "crumbs": [
       "About and how to contribute",
       "Contributing",
@@ -149,11 +113,11 @@
     ]
   },
   {
-    "objectID": "about/contributing.html#step-2-agree-the-contribution-route",
-    "href": "about/contributing.html#step-2-agree-the-contribution-route",
+    "objectID": "about/contributing.html#step-2-create-a-feature-branch-or-a-personal-fork-to-host-the-changes",
+    "href": "about/contributing.html#step-2-create-a-feature-branch-or-a-personal-fork-to-host-the-changes",
     "title": "How to contribute",
-    "section": "Step 2: Agree the contribution route",
-    "text": "Step 2: Agree the contribution route\nThe appropriate route will depend on the scope and complexity of the change.\nFor an approved PATCH issue, the Technical Secretariat will make the correction.\nFor an approved MINOR or MAJOR issue, the contributor, Technical Secretariat or an agreed Task Team workstream can take the proposal forward. Substantial work should not begin until the scope, contribution route and review requirements have been agreed through the issue.\nIf the agreed route involves submitting a pull request, continue to Step 3.\nIf the Technical Secretariat will implement the change, no further GitHub action is required from the contributor unless additional information is requested.",
+    "section": "Step 2: Create a ‘feature’ branch or a personal fork to host the changes",
+    "text": "Step 2: Create a ‘feature’ branch or a personal fork to host the changes\nThere are many ways to do this, but the simplest way is to use the Edit this page link (which you will see at the bottom of the table of contents on each page). Figure 2 shows what this looks like.\n\n\n\n\n\n\nFigure 2: Example “Edit this page”\n\n\n\n\n\n\n\n\n\nTipWhat you do depends on what rights you have\n\n\n\n\nIf you’ve never contributed before and have no default rights to the main repository, GitHub will create a fork in your personal name space. You can make any changes you want there and merge them in when you are ready.\nIf you are a member of the team in any way, you may be able to create a branch within the main repository (called a ‘feature’ branch as it includes the feature you are making).\n\nIf you are a member of a workstream, you may create a ‘feature’ branch from the main development branch your team is working on as it may be a while before that development branch is merged into main and thus the content is released.\n\n\n\n\n\nTips on making changes and describing them\n\n\n\n\n\n\nTipStyle consistency matters\n\n\n\nWhen you are making changes, keep the style guide in mind. Its always easier to write in a way that is consistent with other content rather than needing to edit it later (maintainers / project managers will ask you to make style changes if needed).\n\n\nDraft the proposed changes in your branch / fork. You can also open a Pull Request before the work is complete if you want, however please keep it in draft status until it is ready for review.\nWhere possible:\n\nkeep each pull request focused on the issue it is intended to address;\nlink the pull request to the relevant issue;\nexplain what has changed and why;\nidentify any sections that require particular attention from reviewers; and\navoid including unrelated changes in the same pull request.\n\n\n\n\n\n\n\nTipUpdate the last updated date\n\n\n\nMany handbook pages contain a hard coded date-modified value. See the guidance on /about/style-guide.qmd#metadata.\nIf you find a hard coded date-modified value, replace it with last-modified.\nFor example:\n--- \ntitle: \"page title\"\ndate: \"2024-05-08\" \ndate-modified: \"2025-10-08\" # UPDATE THIS\n---\nChange to:\n---\ntitle: \"page title\"\ndate: \"2024-05-08\" \ndate-modified: last-modified\n---",
     "crumbs": [
       "About and how to contribute",
       "Contributing",
@@ -161,11 +125,11 @@
     ]
   },
   {
-    "objectID": "about/contributing.html#step-3-create-a-branch-or-fork",
-    "href": "about/contributing.html#step-3-create-a-branch-or-fork",
+    "objectID": "about/contributing.html#step-3-coordinate-review-where-needed",
+    "href": "about/contributing.html#step-3-coordinate-review-where-needed",
     "title": "How to contribute",
-    "section": "Step 3: Create a branch or fork",
-    "text": "Step 3: Create a branch or fork\nCreate a branch in the repository or a fork under your own GitHub account, depending on your access permissions and the agreed contribution route.\nDraft the proposed changes in the branch. If you open a pull request before the work is complete, keep the pull request in draft status until it is ready for review.\nWhere possible:\n\nkeep each pull request focused on the issue it is intended to address;\nlink the pull request to the relevant issue;\nexplain what has changed and why;\nidentify any sections that require particular attention from reviewers; and\navoid including unrelated changes in the same pull request.\n\n\n\n\n\n\n\nTipUpdate the last updated date\n\n\n\nMany handbook pages contain a hard coded date-modified value. See the guidance on /about/style-guide.qmd#metadata.\nIf you find a hard coded date-modified value, replace it with last-modified.\nFor example:\n--- \ntitle: \"page title\"\ndate: \"2024-05-08\" \ndate-modified: \"2025-10-08\" # UPDATE THIS\n---\nChange to:\n---\ntitle: \"page title\"\ndate: \"2024-05-08\" \ndate-modified: last-modified\n---",
+    "section": "Step 3: Coordinate review where needed",
+    "text": "Step 3: Coordinate review where needed\nIf your changes are consequential, it is best to coordinate the review of your content with an expert.\nSome experts in our discipline however do not regularly use GitHub, hence you can make the draft available in another format, such as PDF or Microsoft Word.\nFor example, the page metadata can be configured to render both formats:\n---\ntitle: \"Article title\"\ndate: \"YYYY-MM-DD\"\ndate-modified: last-modified\nformat:\n  pdf:\n    documentclass: article\n  docx:\n    toc: true\n---\nThis allows an offline copy to be shared with reviewers. Any comments or edits made outside GitHub will need to be incorporated back into the relevant branch or fork before the pull request can be merged.",
     "crumbs": [
       "About and how to contribute",
       "Contributing",
@@ -173,11 +137,11 @@
     ]
   },
   {
-    "objectID": "about/contributing.html#step-4-coordinate-review-where-needed",
-    "href": "about/contributing.html#step-4-coordinate-review-where-needed",
+    "objectID": "about/contributing.html#step-4-submit-the-pull-request-for-review",
+    "href": "about/contributing.html#step-4-submit-the-pull-request-for-review",
     "title": "How to contribute",
-    "section": "Step 4: Coordinate review where needed",
-    "text": "Step 4: Coordinate review where needed\nThe review requirements will depend on whether the change is classified as PATCH, MINOR or MAJOR.\nIf reviewers do not regularly use GitHub, you can make the draft available in another format, such as PDF or Microsoft Word.\nFor example, the page metadata can be configured to render both formats:\n---\ntitle: \"Article title\"\ndate: \"YYYY-MM-DD\"\ndate-modified: last-modified\nformat:\n  pdf:\n    documentclass: article\n  docx:\n    toc: true\n---\nThis allows an offline copy to be shared with reviewers. Any comments or edits made outside GitHub will need to be incorporated back into the relevant branch or fork before the pull request can be merged.",
+    "section": "Step 4: Submit the pull request for review",
+    "text": "Step 4: Submit the pull request for review\nWhen your change is ready for maintainers / project managers to review, submit the Pull Request (or remove the draft status if you have been working on a draft).\nIn the pull request description:\n\nlink to the relevant issue;\nsummarise the changes made;\nnote any supporting evidence or consultation;\nidentify any outstanding questions; and\nconfirm the review or approval route agreed through the issue.\n\nProject Maintainers / Project Managers will support the contribution through the remainder of the process and will merge your change in when they see it as ready. You may be asked to make further revisions before the changes are approved and merged.",
     "crumbs": [
       "About and how to contribute",
       "Contributing",
@@ -185,11 +149,11 @@
     ]
   },
   {
-    "objectID": "about/contributing.html#step-5-submit-the-pull-request-for-review",
-    "href": "about/contributing.html#step-5-submit-the-pull-request-for-review",
+    "objectID": "about/contributing.html#semantic-versioning",
+    "href": "about/contributing.html#semantic-versioning",
     "title": "How to contribute",
-    "section": "Step 5: Submit the pull request for review",
-    "text": "Step 5: Submit the pull request for review\nWhen the proposed changes are ready for formal review, remove the draft status from the pull request.\nIn the pull request description:\n\nlink to the relevant issue;\nsummarise the changes made;\nidentify the semantic versioning level;\nnote any supporting evidence or consultation;\nidentify any outstanding questions; and\nconfirm the review or approval route agreed through the issue.\n\nThe Secretariat and relevant reviewers will support the contribution through the remainder of the process. Further revisions may be requested before the changes are approved and merged.\nOnce the relevant checks, reviews and approvals are complete, the pull request can be merged into the handbook.\nThank you for contributing to the handbook.",
+    "section": "Semantic versioning",
+    "text": "Semantic versioning\nWe use semantic versioning to guide how changes to the handbook are classified.\n\n\n\nTable 1: Categories of contribution\n\n\n\n\n\n\n\n\n\n\n\nLevel\nExamples\nDefault route\nReview expectation\n\n\n\n\nPATCH\nSpelling, links, formatting, bibliography and other non substantive corrections\nDirect Pull Request\nTypically merged directly by Maintainers / Project Managers\n\n\nMINOR\nCase study, expanded example, factual clarification, evidence or code revision that does not change the overall scope\nIssue on the topic followed by a pull request\nRelevant peer review by other contributors with the same expertise and approval by maintainers / project managers.\n\n\nMAJOR\nNew chapter, substantial methodological change, new data source, major restructuring or new training module\nIssue on the topic that may be followed by by a Task Team workstream or even steering committee participation.\nDetailed review by other experts with the expertise. Likely collaboration with multiple other contributors is possible through a workstream.",
     "crumbs": [
       "About and how to contribute",
       "Contributing",
@@ -197,36 +161,75 @@
     ]
   },
   {
-    "objectID": "about/index.html",
-    "href": "about/index.html",
-    "title": "About us",
+    "objectID": "about/contributing.html#issue-templates",
+    "href": "about/contributing.html#issue-templates",
+    "title": "How to contribute",
+    "section": "Issue templates",
+    "text": "Issue templates\nThere are several issue types we may use to classify the content.\n\n\n\nTable 2: Issue templates\n\n\n\n\n\n\n\n\n\nIssue template\nWhen to use it\n\n\n\n\nCorrection Request (PATCH)\nSpelling mistakes, broken links, formatting problems, citation updates and other non substantive corrections\n\n\nContent Enhancement (MINOR)\nAdditional examples, case studies, explanations, evidence, resources or code that do not change the overall scope of the handbook\n\n\nHandbook Change Proposal (MAJOR)\nNew methodology, a new chapter, substantial restructuring, a new data source or changes to existing recommendations\n\n\nDiscussion / Guidance Request\nQuestions, early ideas or proposals that require discussion before the appropriate route can be determined",
+    "crumbs": [
+      "About and how to contribute",
+      "Contributing",
+      "How to contribute"
+    ]
+  },
+  {
+    "objectID": "about/governance.html",
+    "href": "about/governance.html",
+    "title": "Governance within the context of the broader community",
     "section": "",
-    "text": "Welcome! This project is maintained by the UN Task Team on Scanner data.",
+    "text": "Who are the UN Task Team on Scanner data? We are members of the price statistics community, working to simplify the work of the broader community to adopt new (i.e. alternative) data sources. How we govern our group is key to ensure we add value and use each others’ time effectively.\n\n\n\n\n\n\nWe see governance as the processes and norms used by a group to deliver useful products and services to a broader community, by means of fostering direction and focus of enthusiastic contributors towards shared goals.\n\n\n\nBreaking that out a little, we see the key aspects as:\n\nDeveloping value adding products – with the goal to make it easier for price statisticians to understand, research, or implement alternative data to enhance their national statistical outputs.\nHelping focus the best and brightest in our community to contribute and thus help the community itself – as our community can only learn from each other.\nWorking to instill transparency in the direction and the strategies used – as a means of validating that products created or maintained are adding value, the work being done is headed in the right direction, and making it easy to engage and participate\n\n\n\nWe break down the overall consumer price statistics community into three broad levels to specify how Task Team contributors interact with the wider community:\n\nThe casual and passive members of the price statistics community – includes everyone who work in the discipline of price statistics that passively consume our products (if they are aware of them). This is the main group we are trying to support. Some passive members of the community may engage with us casually, either on their own interest or responding to our consultations.\n\nWe both welcome contributions from this group and at time seek to engage this group (such as to validate some of our more nuanced content)\n\nActive or contributing members – are the maintainers and contributors to our content. This group either creates new content and products or sustains them to ensure they stay relevant and continue to add value.\nThe steering group – is a nominated volunteer group that sets strategic Task Team level direction, evaluate gaps and launch workstreams to address them, advocates for the group, and sets norms that help the broader community.\n\nFigure 1 showcases this breakdown visually.\n\n\n\n\n\n\n\n\nFigure 1: How the overall consumer price statistics community breaks out into various groups.",
     "crumbs": [
       "About and how to contribute",
-      "About us"
+      "Contributing",
+      "Governance within the context of the broader community"
     ]
   },
   {
-    "objectID": "about/index.html#this-open-source-project-is-led-by-the-un-task-team-on-scanner-data",
-    "href": "about/index.html#this-open-source-project-is-led-by-the-un-task-team-on-scanner-data",
-    "title": "About us",
-    "section": "This open-source project is led by the UN Task Team on Scanner data",
-    "text": "This open-source project is led by the UN Task Team on Scanner data\nThe project is responsible for led by the United Nations Task Team on Scanner data – which was stood up by the UN Committee of Experts on Big Data and Data Science for Official Statistics (UN-CEBD). Read more about us here.\nThe Task Team began like many other United Nations Task Teams – as a collaboration of eager contributors from statisticians and data scientists bringing their collective expertise to create standardized guidance for everyone. This began as a collaboration of folks formally supporting the broader Task Team as part of their work. We typically used internal tools we had at our disposal or we had through our work.\nSince 2025, the Task Team has been increasingly shifting our products and outputs to GitHub and other open platforms to make them reproducible, make it easier to contribute to, and leverage the power of tools like GitHub to automate various aspects.",
+    "objectID": "about/governance.html#overview-of-the-three-levels",
+    "href": "about/governance.html#overview-of-the-three-levels",
+    "title": "Governance within the context of the broader community",
+    "section": "",
+    "text": "We break down the overall consumer price statistics community into three broad levels to specify how Task Team contributors interact with the wider community:\n\nThe casual and passive members of the price statistics community – includes everyone who work in the discipline of price statistics that passively consume our products (if they are aware of them). This is the main group we are trying to support. Some passive members of the community may engage with us casually, either on their own interest or responding to our consultations.\n\nWe both welcome contributions from this group and at time seek to engage this group (such as to validate some of our more nuanced content)\n\nActive or contributing members – are the maintainers and contributors to our content. This group either creates new content and products or sustains them to ensure they stay relevant and continue to add value.\nThe steering group – is a nominated volunteer group that sets strategic Task Team level direction, evaluate gaps and launch workstreams to address them, advocates for the group, and sets norms that help the broader community.\n\nFigure 1 showcases this breakdown visually.\n\n\n\n\n\n\n\n\nFigure 1: How the overall consumer price statistics community breaks out into various groups.",
     "crumbs": [
       "About and how to contribute",
-      "About us"
+      "Contributing",
+      "Governance within the context of the broader community"
     ]
   },
   {
-    "objectID": "about/index.html#who-are-your-contributors",
-    "href": "about/index.html#who-are-your-contributors",
-    "title": "About us",
-    "section": "Who are your contributors?",
-    "text": "Who are your contributors?\nThe Task Team is made up of many contributors. There are contributors who used tools like the UN Wiki – you can check the names out in the acknowledgment section of the handbook.\nNew contributors to this repository and our outputs on GitHub will be tracked using contribution.",
+    "objectID": "about/governance.html#the-casual-and-passive-members",
+    "href": "about/governance.html#the-casual-and-passive-members",
+    "title": "Governance within the context of the broader community",
+    "section": "The casual and passive members",
+    "text": "The casual and passive members\nThe broader community is made up of all members of the discipline, whether they work for the National Statistical Office producing consumer price statistics, a central bank that leverages these outputs, an academic or researcher, or anyone else. This community can be broken broken up into two sub-groups.\n\nPassive community members\nPassive community members consume outputs created by the Task Team, but do not typically interact. They may not even be aware of the material – which is part of our advocacy efforts.\nFor those who are aware, they may read and even use our content without interacting with us. We seek to interact with this group periodically (such as to survey them or engage them directly during price statistics conferences).\n\n\nCasual (or one-off) contributors\nPassive community members who see issues and want to participate periodically, are encouraged to participate and contribute to our content directly. They may flag issues (whether trivial like spelling mistakes or more consequential such as missing content), and may participate in drafting content directly. The most experienced ones of this group we try to encourage to become regular contributors (either on their own or by becoming members of the Task Team).\nWe periodically engage with experts in this community to validate nuanced or challenging aspects. For instance the most experienced price index experts may not actively contribute to our content directly, but we try to engage with them to ensure that our content provides grounded and trustworthy recommendations.",
     "crumbs": [
       "About and how to contribute",
-      "About us"
+      "Contributing",
+      "Governance within the context of the broader community"
+    ]
+  },
+  {
+    "objectID": "about/governance.html#active-or-contributing-members",
+    "href": "about/governance.html#active-or-contributing-members",
+    "title": "Governance within the context of the broader community",
+    "section": "Active or contributing members",
+    "text": "Active or contributing members\nThose who seek to actively participate in our content tend to do so more regularly and are granted rights to our repositories to support the work.\n\nActive contributors\nContributors to our content can be either:\n\nIndividual contributors (ICs) working on their own (or in a self-organized fashion with other ICs) to develop or improve content. For instance they raised ideas through the contributing process and got a green light to develop material. They may be regular or semi-regular contributors.\n\nAs our projects are fundamentally open-source community driven projects, we welcome ideas for contributions!\n\nIndividual contributors working with others in a workstream launched by the steering group to address a specific need or create a specific product/output. ICs are typically recruited to join a workstream based on their competencies and experiences in their full time job.\n\nThis group is the core of regular contributors on the Task Team, as most contributions and the majority of outputs developed by the Task Team have been made by this group!\n\n\n\n\n\n\n\n\nNote\n\n\n\nDepending on bandwidth and skill sets of IC volunteers, the Steering Group may coordinate the hiring of consultants as ICs for specific tasks.\n\n\n\n\nProject Managers or coordinators\nManaging contributions and organizing workstreams is a key activity that ensures that community contribution are triaged and content is created in alignment with stated goals. There are two sub-types possible:\n\nMaintainers – help triage various activities (such as Pull Requests or Issues – see contributing process for more details). This indispensable group helps make sure materials are sustained and enhanced lightly over time.\n\nMaintainers have rights to approve PRs or to assign issues or PRs to other ICs / Steering committee to weigh in.\n\nProject Managers (i.e. Workstream leads) – help lead individual workstreams to ensure that the goals of that workstream stays on track.\n\nWorkstream leads also have the right to approve PRs, and typically weight in on issues and discussions.",
+    "crumbs": [
+      "About and how to contribute",
+      "Contributing",
+      "Governance within the context of the broader community"
+    ]
+  },
+  {
+    "objectID": "about/governance.html#steering-committee",
+    "href": "about/governance.html#steering-committee",
+    "title": "Governance within the context of the broader community",
+    "section": "Steering Committee",
+    "text": "Steering Committee\nFinally, the steering committee is a body that meets regularly to set direction, plan each year, and ensure that norms and processes are followed.\nThe steering committee is made up of workstream leads and is supported by the UN Secretariat and the UN Regional Hub in Brazil (IBGE).\n\nThe steering group is fundamentally accountable for the quality and trustworthiness of the materials/products created by the whole group. They have owner role on Task Team products.",
+    "crumbs": [
+      "About and how to contribute",
+      "Contributing",
+      "Governance within the context of the broader community"
     ]
   },
   {
@@ -2279,123 +2282,120 @@
     ]
   },
   {
-    "objectID": "about/how-we-work.html",
-    "href": "about/how-we-work.html",
-    "title": "How we work",
+    "objectID": "about/index.html",
+    "href": "about/index.html",
+    "title": "About us",
     "section": "",
-    "text": "Important\n\n\n\nOpen by default\nProposals, discussion, source files and contribution history are visible wherever licensing, confidentiality and accessibility permit. This way we are transparent and earn or retain the trust of the wider community (who can thus more readily use our content) and make it attractive for individuals to contribute.\nEasy to contribute\nWe make the process of contributing simple, enabling everyone from beginners to experts to contribute to our content\nAuthority is explicit\nDevelopment content, the living handbook, formal releases and any endorsed edition is made clear.\nProportionate assurance\nReview and approval effort should reflect the significance and risk of the change.\nInclusive evidence\nReview should seek views and include the needs of countries at different stages of adopting new data sources.\nReproducible and maintainable\nContent, code and publication processes should minimize single-person dependencies and retain an auditable history.\nCoherent products\nHandbook changes should trigger consideration of related code, training and catalogue content.\n\n\n\n\n\nWork within the Task Team is either organized into groups each around a common theme or purpose, or is left unorganized.\nOrganized work is typically time or scope bound activity aimed at achieving something specific. For instance:\n\nWorkstreams are formed and staffed with contributors to develop a set of products or outputs. A workstream may persist over several years and may even expand scope. The goals are clearly stated so that contributors know towards what they are focusing on each year.\n\nThe steering group can be considered a long lasting group that sets the overall direction with regular goals.\nAnother example is Workstream 5 (or the FAIR / Reproducibility) workstream. It launched in late 2024 and has gone through two annual cycles with specific scope and goals outlined each year.\n\nWork groups are short lived groups that are brought together to achieve something. Each group could be small (two Individual Contributors (ICs)) or larger (several ICs and several experts consulted on what is being developed). In either case, their contributions are typically made as several MINOR or MAJOR updates to the content.1\n\nEvery year following a Price Statistics conference, a project manager on the Task Team forms a work group to review and integrate new material into the existing products\n\n\nContributions to Task Team products by submitting issues or Pull Requests is left as unorganized work. These contributions can come from periodic or active contributors, or from any other group (even from Steering Group members) and are an avenue to improve our outputs! Unorganized requests are triaged and handled appropriately (see the contributing process for more on this process).\nFigure 1 shows how these bodies co-exists.\n\n\n\n\n\n\nFigure 1: Visual of various organization work bodies occuring within the same time\n\n\n\n\n\n\nWe use GitHub to track all work activity:\n\nAll activity is tracked on GitHub as issues and PRs. See the contributing process for more detail on the process.\nGitHub projects are used to project manage specific workstreams or group. A project charter that outlines the scope for the year (if its organized) is made to identify why something is in scope.",
+    "text": "Welcome! This project is maintained by the UN Task Team on Scanner data.",
     "crumbs": [
       "About and how to contribute",
-      "Contributing",
-      "How we work"
+      "About us"
     ]
   },
   {
-    "objectID": "about/how-we-work.html#principles",
-    "href": "about/how-we-work.html#principles",
-    "title": "How we work",
+    "objectID": "about/index.html#this-open-source-project-is-led-by-the-un-task-team-on-scanner-data",
+    "href": "about/index.html#this-open-source-project-is-led-by-the-un-task-team-on-scanner-data",
+    "title": "About us",
+    "section": "This open-source project is led by the UN Task Team on Scanner data",
+    "text": "This open-source project is led by the UN Task Team on Scanner data\nThe project is responsible for led by the United Nations Task Team on Scanner data – which was stood up by the UN Committee of Experts on Big Data and Data Science for Official Statistics (UN-CEBD). Read more about us here.\nThe Task Team began like many other United Nations Task Teams – as a collaboration of eager contributors from statisticians and data scientists bringing their collective expertise to create standardized guidance for everyone. This began as a collaboration of folks formally supporting the broader Task Team as part of their work. We typically used internal tools we had at our disposal or we had through our work.\nSince 2025, the Task Team has been increasingly shifting our products and outputs to GitHub and other open platforms to make them reproducible, make it easier to contribute to, and leverage the power of tools like GitHub to automate various aspects.",
+    "crumbs": [
+      "About and how to contribute",
+      "About us"
+    ]
+  },
+  {
+    "objectID": "about/index.html#who-are-your-contributors",
+    "href": "about/index.html#who-are-your-contributors",
+    "title": "About us",
+    "section": "Who are your contributors?",
+    "text": "Who are your contributors?\nThe Task Team is made up of many contributors. There are contributors who used tools like the UN Wiki – you can check the names out in the acknowledgment section of the handbook.\nNew contributors to this repository and our outputs on GitHub will be tracked using contribution.",
+    "crumbs": [
+      "About and how to contribute",
+      "About us"
+    ]
+  },
+  {
+    "objectID": "about/contribution-management.html",
+    "href": "about/contribution-management.html",
+    "title": "Project Managing contributions",
+    "section": "",
+    "text": "Important\n\n\n\nOpen by default\nProposals, discussion, source files and contribution history are visible wherever licensing, confidentiality and accessibility permit. This way we are transparent and earn or retain the trust of the wider community (who can thus more readily use our content) and make it attractive for individuals to contribute.\nEasy to contribute\nWe make the process of contributing simple, enabling everyone from beginners to experts to contribute to our content\nAuthority is explicit\nDevelopment content, the living handbook, formal releases and any endorsed edition is made clear.\nProportionate assurance\nReview and approval effort should reflect the significance and risk of the change.\nInclusive evidence\nReview should seek views and include the needs of countries at different stages of adopting new data sources.\nReproducible and maintainable\nContent, code and publication processes should minimize single-person dependencies and retain an auditable history.\nCoherent products\nHandbook changes should trigger consideration of related code, training and catalogue content.\n\n\n\n\n\nWork within the Task Team is either organized into groups each around a common theme or purpose, or is left unorganized.\nOrganized work is typically time or scope bound activity aimed at achieving something specific. For instance:\n\nWorkstreams are formed and staffed with contributors to develop a set of products or outputs. A workstream may persist over several years and may even expand scope. The goals are clearly stated so that contributors know towards what they are focusing on each year.\n\nThe steering group can be considered a long lasting group that sets the overall direction with regular goals.\nAnother example is Workstream 5 (or the FAIR / Reproducibility) workstream. It launched in late 2024 and has gone through two annual cycles with specific scope and goals outlined each year.\n\nWork groups are short lived groups that are brought together to achieve something. Each group could be small (two Individual Contributors (ICs)) or larger (several ICs and several experts consulted on what is being developed). In either case, their contributions are typically made as several MINOR or MAJOR updates to the content.1\n\nEvery year following a Price Statistics conference, a project manager on the Task Team forms a work group to review and integrate new material into the existing products\n\n\nContributions to Task Team products by submitting issues or Pull Requests is left as unorganized work. These contributions can come from periodic or active contributors, or from any other group (even from Steering Group members) and are an avenue to improve our outputs! Unorganized requests are triaged and handled appropriately (see the contributing process for more on this process).\nFigure 1 shows how these bodies co-exists.\n\n\n\n\n\n\nFigure 1: Visual of various organization work bodies occuring within the same time\n\n\n\n\n\n\nWe use GitHub to track all work activity:\n\nAll activity is tracked on GitHub as issues and PRs. See the contributing process for more detail on the process.\nGitHub projects are used to project manage specific workstreams or group. A project charter that outlines the scope for the year (if its organized) is made to identify why something is in scope.\nDepending on how each workstream / group wants to manage the release of their content, they may coordinate the work on a development branch before merging this into main branch.",
+    "crumbs": [
+      "About and how to contribute",
+      "Contributing",
+      "Project Managing contributions"
+    ]
+  },
+  {
+    "objectID": "about/contribution-management.html#principles",
+    "href": "about/contribution-management.html#principles",
+    "title": "Project Managing contributions",
     "section": "",
     "text": "Important\n\n\n\nOpen by default\nProposals, discussion, source files and contribution history are visible wherever licensing, confidentiality and accessibility permit. This way we are transparent and earn or retain the trust of the wider community (who can thus more readily use our content) and make it attractive for individuals to contribute.\nEasy to contribute\nWe make the process of contributing simple, enabling everyone from beginners to experts to contribute to our content\nAuthority is explicit\nDevelopment content, the living handbook, formal releases and any endorsed edition is made clear.\nProportionate assurance\nReview and approval effort should reflect the significance and risk of the change.\nInclusive evidence\nReview should seek views and include the needs of countries at different stages of adopting new data sources.\nReproducible and maintainable\nContent, code and publication processes should minimize single-person dependencies and retain an auditable history.\nCoherent products\nHandbook changes should trigger consideration of related code, training and catalogue content.",
     "crumbs": [
       "About and how to contribute",
       "Contributing",
-      "How we work"
+      "Project Managing contributions"
     ]
   },
   {
-    "objectID": "about/how-we-work.html#how-work-is-done",
-    "href": "about/how-we-work.html#how-work-is-done",
-    "title": "How we work",
+    "objectID": "about/contribution-management.html#how-work-is-done",
+    "href": "about/contribution-management.html#how-work-is-done",
+    "title": "Project Managing contributions",
     "section": "",
     "text": "Work within the Task Team is either organized into groups each around a common theme or purpose, or is left unorganized.\nOrganized work is typically time or scope bound activity aimed at achieving something specific. For instance:\n\nWorkstreams are formed and staffed with contributors to develop a set of products or outputs. A workstream may persist over several years and may even expand scope. The goals are clearly stated so that contributors know towards what they are focusing on each year.\n\nThe steering group can be considered a long lasting group that sets the overall direction with regular goals.\nAnother example is Workstream 5 (or the FAIR / Reproducibility) workstream. It launched in late 2024 and has gone through two annual cycles with specific scope and goals outlined each year.\n\nWork groups are short lived groups that are brought together to achieve something. Each group could be small (two Individual Contributors (ICs)) or larger (several ICs and several experts consulted on what is being developed). In either case, their contributions are typically made as several MINOR or MAJOR updates to the content.1\n\nEvery year following a Price Statistics conference, a project manager on the Task Team forms a work group to review and integrate new material into the existing products\n\n\nContributions to Task Team products by submitting issues or Pull Requests is left as unorganized work. These contributions can come from periodic or active contributors, or from any other group (even from Steering Group members) and are an avenue to improve our outputs! Unorganized requests are triaged and handled appropriately (see the contributing process for more on this process).\nFigure 1 shows how these bodies co-exists.\n\n\n\n\n\n\nFigure 1: Visual of various organization work bodies occuring within the same time",
     "crumbs": [
       "About and how to contribute",
       "Contributing",
-      "How we work"
+      "Project Managing contributions"
     ]
   },
   {
-    "objectID": "about/how-we-work.html#project-management-meets-github",
-    "href": "about/how-we-work.html#project-management-meets-github",
-    "title": "How we work",
+    "objectID": "about/contribution-management.html#project-management-meets-github",
+    "href": "about/contribution-management.html#project-management-meets-github",
+    "title": "Project Managing contributions",
     "section": "",
-    "text": "We use GitHub to track all work activity:\n\nAll activity is tracked on GitHub as issues and PRs. See the contributing process for more detail on the process.\nGitHub projects are used to project manage specific workstreams or group. A project charter that outlines the scope for the year (if its organized) is made to identify why something is in scope.",
+    "text": "We use GitHub to track all work activity:\n\nAll activity is tracked on GitHub as issues and PRs. See the contributing process for more detail on the process.\nGitHub projects are used to project manage specific workstreams or group. A project charter that outlines the scope for the year (if its organized) is made to identify why something is in scope.\nDepending on how each workstream / group wants to manage the release of their content, they may coordinate the work on a development branch before merging this into main branch.",
     "crumbs": [
       "About and how to contribute",
       "Contributing",
-      "How we work"
+      "Project Managing contributions"
     ]
   },
   {
-    "objectID": "about/how-we-work.html#footnotes",
-    "href": "about/how-we-work.html#footnotes",
-    "title": "How we work",
+    "objectID": "about/contribution-management.html#raci",
+    "href": "about/contribution-management.html#raci",
+    "title": "Project Managing contributions",
+    "section": "RACI",
+    "text": "RACI\nWe outlined roles and responsibilities in RACI format to clarify who does what.\n\nRACI matrix\n\n\n\n\n\n\n\n\n\n\nActivity\nProject Managers\nActive Contributors\nSteering committee\nExpert Roster\nCasual contributors\n\n\n\n\nMaintaining contribution process and guardrails\nResponsible\nConsulted through PR process\nAccountable for success\n\n\n\n\nTriage an issue or basic PR\nResponsible\n\n\n\n\n\n\n…\n\n\n\n\n\n\n\n\n\nResponsible (R) — Those who complete the task.\nAccountable (A) — The one ultimately answerable for the correct completion of the deliverable or task, ensuring the prerequisites of the task are met, and delegating the work to those responsible.\nConsulted (C) — Those whose opinions are sought, such as subject-matter experts, and with whom there is two-way communication.\nInformed (I) — Those who are kept up-to-date on progress, often only on completion of the task or deliverable, and with whom there is just one-way communication.\n\n\nCollaboration within the community\n\n\n\n\n\n\nNoteDo we need a slack/related?\n\n\n\nTBC - for offline async conversations between the community",
+    "crumbs": [
+      "About and how to contribute",
+      "Contributing",
+      "Project Managing contributions"
+    ]
+  },
+  {
+    "objectID": "about/contribution-management.html#archiving-releases-to-zenodo",
+    "href": "about/contribution-management.html#archiving-releases-to-zenodo",
+    "title": "Project Managing contributions",
+    "section": "Archiving releases to Zenodo",
+    "text": "Archiving releases to Zenodo\nWe archive selected releases of the repository in Zenodo.\n\nHow often do we make releases?\nWe have two ways to organize releases:\n\nIf there has been a moderate to large amount of smaller fixes – once a year we will do a major release that will create a new Zenodo DOI and a new version of the handbook. We will report the differences of the release at a price statistics conference (there is typically a conference every summer) to showcase transparently to the broader community what has changed.\nIf there are major changes that are made or a large amount of minor changes also accumulate – we may make several releases outside of the annual cycle.\n\n\n\nHow do we make a release?\nWe create a new GitHub release for the project, which archives a copy of that release in Zenodo. Zenodo mints a new DOI for that release (which is a child of the parent DOI), which we integrate into the repository. This is why you can site a specific version or the master record when you reference the handbook.\n\n\n\n\n\n\nTipLive site is leading the release DOI slightly\n\n\n\nThe live handbook may therefore include changes made since the latest archived and citable version. Users who need a fixed version for citation should use the relevant archived release.\n\n\nYou can view previous handbook releases.\n\n\nWho makes a release?\nThe steering committee coordinates all releases.",
+    "crumbs": [
+      "About and how to contribute",
+      "Contributing",
+      "Project Managing contributions"
+    ]
+  },
+  {
+    "objectID": "about/contribution-management.html#footnotes",
+    "href": "about/contribution-management.html#footnotes",
+    "title": "Project Managing contributions",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nSee contributing process for more detail on types of changes.↩︎",
     "crumbs": [
       "About and how to contribute",
       "Contributing",
-      "How we work"
-    ]
-  },
-  {
-    "objectID": "about/governance.html",
-    "href": "about/governance.html",
-    "title": "Governance within the context of the broader community",
-    "section": "",
-    "text": "Who are the UN Task Team on Scanner data? We are members of the price statistics community, working to simplify the work of the broader community to adopt new (i.e. alternative) data sources. How we govern our group is key to ensure we add value and use each others’ time effectively.\n\n\n\n\n\n\nWe see governance as the processes and norms used by a group to deliver useful products and services to a broader community, by means of fostering direction and focus of enthusiastic contributors towards shared goals.\n\n\n\nBreaking that out a little, we see the key aspects as:\n\nDeveloping value adding products – with the goal to make it easier for price statisticians to understand, research, or implement alternative data to enhance their national statistical outputs.\nHelping focus the best and brightest in our community to contribute and thus help the community itself – as our community can only learn from each other.\nWorking to instill transparency in the direction and the strategies used – as a means of validating that products created or maintained are adding value, the work being done is headed in the right direction, and making it easy to engage and participate\n\n\n\nWe break down the overall consumer price statistics community into three broad levels to specify how Task Team contributors interact with the wider community:\n\nThe casual and passive members of the price statistics community – includes everyone who work in the discipline of price statistics that passively consume our products (if they are aware of them). This is the main group we are trying to support. Some passive members of the community may engage with us casually, either on their own interest or responding to our consultations.\n\nWe both welcome contributions from this group and at time seek to engage this group (such as to validate some of our more nuanced content)\n\nActive or contributing members – are the maintainers and contributors to our content. This group either creates new content and products or sustains them to ensure they stay relevant and continue to add value.\nThe steering group – is a nominated volunteer group that sets strategic Task Team level direction, evaluate gaps and launch workstreams to address them, advocates for the group, and sets norms that help the broader community.\n\nFigure 1 showcases this breakdown visually.\n\n\n\n\n\n\n\n\nFigure 1: How the overall consumer price statistics community breaks out into various groups.",
-    "crumbs": [
-      "About and how to contribute",
-      "Contributing",
-      "How we see the community and how we are governed"
-    ]
-  },
-  {
-    "objectID": "about/governance.html#overview-of-the-three-levels",
-    "href": "about/governance.html#overview-of-the-three-levels",
-    "title": "Governance within the context of the broader community",
-    "section": "",
-    "text": "We break down the overall consumer price statistics community into three broad levels to specify how Task Team contributors interact with the wider community:\n\nThe casual and passive members of the price statistics community – includes everyone who work in the discipline of price statistics that passively consume our products (if they are aware of them). This is the main group we are trying to support. Some passive members of the community may engage with us casually, either on their own interest or responding to our consultations.\n\nWe both welcome contributions from this group and at time seek to engage this group (such as to validate some of our more nuanced content)\n\nActive or contributing members – are the maintainers and contributors to our content. This group either creates new content and products or sustains them to ensure they stay relevant and continue to add value.\nThe steering group – is a nominated volunteer group that sets strategic Task Team level direction, evaluate gaps and launch workstreams to address them, advocates for the group, and sets norms that help the broader community.\n\nFigure 1 showcases this breakdown visually.\n\n\n\n\n\n\n\n\nFigure 1: How the overall consumer price statistics community breaks out into various groups.",
-    "crumbs": [
-      "About and how to contribute",
-      "Contributing",
-      "How we see the community and how we are governed"
-    ]
-  },
-  {
-    "objectID": "about/governance.html#the-casual-and-passive-members",
-    "href": "about/governance.html#the-casual-and-passive-members",
-    "title": "Governance within the context of the broader community",
-    "section": "The casual and passive members",
-    "text": "The casual and passive members\nThe broader community is made up of all members of the discipline, whether they work for the National Statistical Office producing consumer price statistics, a central bank that leverages these outputs, an academic or researcher, or anyone else. This community can be broken broken up into two sub-groups.\n\nPassive community members\nPassive community members consume outputs created by the Task Team, but do not typically interact. They may not even be aware of the material – which is part of our advocacy efforts.\nFor those who are aware, they may read and even use our content without interacting with us. We seek to interact with this group periodically (such as to survey them or engage them directly during price statistics conferences).\n\n\nCasual (or one-off) contributors\nPassive community members who see issues and want to participate periodically, are encouraged to participate and contribute to our content directly. They may flag issues (whether trivial like spelling mistakes or more consequential such as missing content), and may participate in drafting content directly. The most experienced ones of this group we try to encourage to become regular contributors (either on their own or by becoming members of the Task Team).\nWe periodically engage with experts in this community to validate nuanced or challenging aspects. For instance the most experienced price index experts may not actively contribute to our content directly, but we try to engage with them to ensure that our content provides grounded and trustworthy recommendations.",
-    "crumbs": [
-      "About and how to contribute",
-      "Contributing",
-      "How we see the community and how we are governed"
-    ]
-  },
-  {
-    "objectID": "about/governance.html#active-or-contributing-members",
-    "href": "about/governance.html#active-or-contributing-members",
-    "title": "Governance within the context of the broader community",
-    "section": "Active or contributing members",
-    "text": "Active or contributing members\nThose who seek to actively participate in our content tend to do so more regularly and are granted rights to our repositories to support the work.\n\nActive contributors\nContributors to our content can be either:\n\nIndividual contributors (ICs) working on their own (or in a self-organized fashion with other ICs) to develop or improve content. For instance they raised ideas through the contributing process and got a green light to develop material. They may be regular or semi-regular contributors.\n\nAs our projects are fundamentally open-source community driven projects, we welcome ideas for contributions!\n\nIndividual contributors working with others in a workstream launched by the steering group to address a specific need or create a specific product/output. ICs are typically recruited to join a workstream based on their competencies and experiences in their full time job.\n\nThis group is the core of regular contributors on the Task Team, as most contributions and the majority of outputs developed by the Task Team have been made by this group!\n\n\n\n\n\n\n\n\nNote\n\n\n\nDepending on bandwidth and skill sets of IC volunteers, the Steering Group may coordinate the hiring of consultants as ICs for specific tasks.\n\n\n\n\nProject Managers or coordinators\nManaging contributions and organizing workstreams is a key activity that ensures that community contribution are triaged and content is created in alignment with stated goals. There are two sub-types possible:\n\nMaintainers – help triage various activities (such as Pull Requests or Issues – see contributing process for more details). This indispensable group helps make sure materials are sustained and enhanced lightly over time.\n\nMaintainers have rights to approve PRs or to assign issues or PRs to other ICs / Steering committee to weigh in.\n\nProject Managers (i.e. Workstream leads) – help lead individual workstreams to ensure that the goals of that workstream stays on track.\n\nWorkstream leads also have the right to approve PRs, and typically weight in on issues and discussions.",
-    "crumbs": [
-      "About and how to contribute",
-      "Contributing",
-      "How we see the community and how we are governed"
-    ]
-  },
-  {
-    "objectID": "about/governance.html#steering-committee",
-    "href": "about/governance.html#steering-committee",
-    "title": "Governance within the context of the broader community",
-    "section": "Steering Committee",
-    "text": "Steering Committee\nFinally, the steering committee is a body that meets regularly to set direction, plan each year, and ensure that norms and processes are followed.\nThe steering committee is made up of workstream leads and is supported by the UN Secretariat and the UN Regional Hub in Brazil (IBGE).\n\nThe steering group is fundamentally accountable for the quality and trustworthiness of the materials/products created by the whole group. They have owner role on Task Team products.",
-    "crumbs": [
-      "About and how to contribute",
-      "Contributing",
-      "How we see the community and how we are governed"
+      "Project Managing contributions"
     ]
   },
   {

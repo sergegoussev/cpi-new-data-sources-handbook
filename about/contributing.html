@@ -72,7 +72,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../about/how-we-work.html" rel="prev">
+<link href="../about/contribution-management.html" rel="next">
+<link href="../about/governance.html" rel="prev">
 <link href="../handbook/images/logo.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -409,13 +410,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../about/governance.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">How we see the community and how we are governed</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../about/how-we-work.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">How we work</span></a>
+ <span class="menu-text">Governance within the context of the broader community</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -424,9 +419,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text">How to contribute</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../about/contribution-management.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Project Managing contributions</span></a>
+  </div>
+</li>
+          <li class="px-0"><hr class="sidebar-divider hi "></li>
       </ul>
   </li>
-        <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../about/style-guide.html" class="sidebar-item-text sidebar-link">
@@ -443,20 +444,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a>
+  <li><a href="#the-basic-contribution-process" id="toc-the-basic-contribution-process" class="nav-link active" data-scroll-target="#the-basic-contribution-process">The basic contribution process</a>
+  <ul class="collapse">
+  <li><a href="#step-0-make-the-change-directly-for-trivial-changes" id="toc-step-0-make-the-change-directly-for-trivial-changes" class="nav-link" data-scroll-target="#step-0-make-the-change-directly-for-trivial-changes">Step 0: Make the change directly (for trivial changes)</a></li>
+  <li><a href="#step-1-start-with-an-issue" id="toc-step-1-start-with-an-issue" class="nav-link" data-scroll-target="#step-1-start-with-an-issue">Step 1: Start with an issue</a></li>
+  <li><a href="#step-2-create-a-feature-branch-or-a-personal-fork-to-host-the-changes" id="toc-step-2-create-a-feature-branch-or-a-personal-fork-to-host-the-changes" class="nav-link" data-scroll-target="#step-2-create-a-feature-branch-or-a-personal-fork-to-host-the-changes">Step 2: Create a ‘feature’ branch or a personal fork to host the changes</a>
+  <ul class="collapse">
+  <li><a href="#tips-on-making-changes-and-describing-them" id="toc-tips-on-making-changes-and-describing-them" class="nav-link" data-scroll-target="#tips-on-making-changes-and-describing-them">Tips on making changes and describing them</a></li>
+  </ul></li>
+  <li><a href="#step-3-coordinate-review-where-needed" id="toc-step-3-coordinate-review-where-needed" class="nav-link" data-scroll-target="#step-3-coordinate-review-where-needed">Step 3: Coordinate review where needed</a></li>
+  <li><a href="#step-4-submit-the-pull-request-for-review" id="toc-step-4-submit-the-pull-request-for-review" class="nav-link" data-scroll-target="#step-4-submit-the-pull-request-for-review">Step 4: Submit the pull request for review</a></li>
+  </ul></li>
+  <li><a href="#annex-what-to-expect-of-the-interaction-process" id="toc-annex-what-to-expect-of-the-interaction-process" class="nav-link" data-scroll-target="#annex-what-to-expect-of-the-interaction-process">Annex: What to expect of the interaction process?</a>
   <ul class="collapse">
   <li><a href="#semantic-versioning" id="toc-semantic-versioning" class="nav-link" data-scroll-target="#semantic-versioning">Semantic versioning</a></li>
-  <li><a href="#choosing-an-issue-template" id="toc-choosing-an-issue-template" class="nav-link" data-scroll-target="#choosing-an-issue-template">Choosing an issue template</a></li>
-  <li><a href="#archiving-releases-to-zenodo" id="toc-archiving-releases-to-zenodo" class="nav-link" data-scroll-target="#archiving-releases-to-zenodo">Archiving releases to Zenodo</a></li>
-  <li><a href="#git-workflow" id="toc-git-workflow" class="nav-link" data-scroll-target="#git-workflow">Git workflow</a></li>
-  </ul></li>
-  <li><a href="#how-to-contribute" id="toc-how-to-contribute" class="nav-link" data-scroll-target="#how-to-contribute">How to contribute</a>
-  <ul class="collapse">
-  <li><a href="#step-1-start-with-an-issue" id="toc-step-1-start-with-an-issue" class="nav-link" data-scroll-target="#step-1-start-with-an-issue">Step 1: Start with an issue</a></li>
-  <li><a href="#step-2-agree-the-contribution-route" id="toc-step-2-agree-the-contribution-route" class="nav-link" data-scroll-target="#step-2-agree-the-contribution-route">Step 2: Agree the contribution route</a></li>
-  <li><a href="#step-3-create-a-branch-or-fork" id="toc-step-3-create-a-branch-or-fork" class="nav-link" data-scroll-target="#step-3-create-a-branch-or-fork">Step 3: Create a branch or fork</a></li>
-  <li><a href="#step-4-coordinate-review-where-needed" id="toc-step-4-coordinate-review-where-needed" class="nav-link" data-scroll-target="#step-4-coordinate-review-where-needed">Step 4: Coordinate review where needed</a></li>
-  <li><a href="#step-5-submit-the-pull-request-for-review" id="toc-step-5-submit-the-pull-request-for-review" class="nav-link" data-scroll-target="#step-5-submit-the-pull-request-for-review">Step 5: Submit the pull request for review</a></li>
+  <li><a href="#issue-templates" id="toc-issue-templates" class="nav-link" data-scroll-target="#issue-templates">Issue templates</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/UN-Task-Team-for-Scanner-Data/cpi-new-data-sources-handbook/edit/main/about/contributing.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/UN-Task-Team-for-Scanner-Data/cpi-new-data-sources-handbook/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
@@ -485,7 +487,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Last updated</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">5 November 2026</p>
+      <p class="date-modified">9 November 2026</p>
     </div>
   </div>
     
@@ -497,172 +499,118 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <p>Welcome! Thank you for your interest to contribute to this handbook.</p>
-<section id="overview" class="level1">
-<h1>Overview</h1>
-<p>Contributions can range from correcting a broken link to proposing a new chapter or methodological approach. We use semantic versioning to classify changes and determine the appropriate contribution, review and approval route.</p>
-<section id="semantic-versioning" class="level2">
-<h2 class="anchored" data-anchor-id="semantic-versioning">Semantic versioning</h2>
-<p>We use <a href="https://semver.org/">semantic versioning</a> to guide how changes to the handbook are classified.</p>
-<div id="tbl-semantic-versioning" class="striped hover quarto-float quarto-figure quarto-figure-center anchored" data-tbl-colwidths="[15,25,25,25]">
-<figure class="quarto-float quarto-float-tbl figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-semantic-versioning-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table&nbsp;1: Categories of contribution
-</figcaption>
-<div aria-describedby="tbl-semantic-versioning-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<table class="table-striped table-hover caption-top table">
-<colgroup>
-<col style="width: 15%">
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Level</th>
-<th style="text-align: left;">Examples</th>
-<th style="text-align: left;">Default route</th>
-<th style="text-align: left;">Review expectation</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="https://github.com/UN-Task-Team-for-Scanner-Data/cpi-new-data-sources-handbook/issues?q=state%3Aopen%20label%3AMAJOR" class="highlight-patch"><strong>PATCH</strong></a></td>
-<td style="text-align: left;">Spelling, links, formatting, bibliography and other non substantive corrections</td>
-<td style="text-align: left;">Correction Request issue</td>
-<td style="text-align: left;">Technical Secretariat review and merge once automated and editorial checks pass</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="https://github.com/UN-Task-Team-for-Scanner-Data/cpi-new-data-sources-handbook/issues?q=state%3Aopen%20label%3AMINOR" class="highlight-minor"><strong>MINOR</strong></a></td>
-<td style="text-align: left;">Case study, expanded example, factual clarification, evidence or code revision that does not change the overall scope</td>
-<td style="text-align: left;">Content Enhancement issue followed by a community, Task Team or Secretariat pull request</td>
-<td style="text-align: left;">Relevant peer review and Steering Group approval</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="https://github.com/UN-Task-Team-for-Scanner-Data/cpi-new-data-sources-handbook/issues?q=state%3Aopen%20label%3APATCH" class="highlight-major"><strong>MAJOR</strong></a></td>
-<td style="text-align: left;">New chapter, substantial methodological change, new data source, major restructuring or new training module</td>
-<td style="text-align: left;">Handbook Change Proposal issue, followed by a Task Team workstream, technical lead or consultant role</td>
-<td style="text-align: left;">Documented peer review and Steering Group level approval</td>
-</tr>
-</tbody>
-</table>
+<p>Contributions can range from correcting a broken link to proposing a new chapter or methodological approach.</p>
+<p>On this page, we go through the overall process of contributing, as well as how project managers / maintainers will interact with you, depending on what you’re doing.</p>
+<section id="the-basic-contribution-process" class="level1">
+<h1>The basic contribution process</h1>
+<p>Akin to other <a href="https://book.the-turing-way.org/community-handbook/contributing/#ch-contributing-pull-request">open source projects</a>, we adopt a simple contribution process. <a href="#fig-contribution-process" class="quarto-xref">Figure&nbsp;1</a> showcases a visual overview, with the detail outlined below.</p>
+<div id="fig-contribution-process" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center" alt="For most ideas or non-trivial contributions, first check existing issues (and create one if needed), and then draft a feature branch and submit a Pull Request to merge the change back in. For trivial processes, feel free to submit a Pull Request directly.">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-contribution-process-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../images/about/contribution.drawio.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:80.0%" alt="For most ideas or non-trivial contributions, first check existing issues (and create one if needed), and then draft a feature branch and submit a Pull Request to merge the change back in. For trivial processes, feel free to submit a Pull Request directly.">
 </div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-contribution-process-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Overview of the contribution process
+</figcaption>
 </figure>
 </div>
-</section>
-<section id="choosing-an-issue-template" class="level2">
-<h2 class="anchored" data-anchor-id="choosing-an-issue-template">Choosing an issue template</h2>
-<p>All proposed changes should begin with a GitHub issue. This allows the proposal to be discussed, classified and assigned to the appropriate contribution route before work begins.</p>
-<p>Select the issue template that best matches the scope of the proposed change:</p>
-<div id="tbl-issue-templates" class="striped hover quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-tbl figure">
-<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-issue-templates-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Table&nbsp;2: Issue templates
-</figcaption>
-<div aria-describedby="tbl-issue-templates-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<table class="table-striped table-hover caption-top table">
-<colgroup>
-<col style="width: 33%">
-<col style="width: 33%">
-<col style="width: 33%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Issue template</th>
-<th style="text-align: left;">When to use it</th>
-<th style="text-align: left;">Typical outcome</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><strong>Correction Request (<span class="highlight-patch">PATCH</span>)</strong></td>
-<td style="text-align: left;">Spelling mistakes, broken links, formatting problems, citation updates and other non substantive corrections</td>
-<td style="text-align: left;">Secretariat review and implementation</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Content Enhancement (<span class="highlight-minor">MINOR</span>)</strong></td>
-<td style="text-align: left;">Additional examples, case studies, explanations, evidence, resources or code that do not change the overall scope of the handbook</td>
-<td style="text-align: left;">Contributor or Secretariat development, followed by relevant review and approval</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><strong>Handbook Change Proposal (<span class="highlight-major">MAJOR</span>)</strong></td>
-<td style="text-align: left;">New methodology, a new chapter, substantial restructuring, a new data source or changes to existing recommendations</td>
-<td style="text-align: left;">Task Team discussion, documented peer review and formal approval</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><strong>Discussion / Guidance Request</strong></td>
-<td style="text-align: left;">Questions, early ideas or proposals that require discussion before the appropriate route can be determined</td>
-<td style="text-align: left;">Guidance or discussion, potentially followed by raising a PATCH, MINOR or MAJOR issue</td>
-</tr>
-</tbody>
-</table>
+<section id="step-0-make-the-change-directly-for-trivial-changes" class="level2">
+<h2 class="anchored" data-anchor-id="step-0-make-the-change-directly-for-trivial-changes">Step 0: Make the change directly (for trivial changes)</h2>
+<p>Before starting out, think through the scale of the change you see needing to be made. If you see a trivial issue but one that would help (say a <strong>spelling mistake</strong>, a <strong>broken link</strong>, a <strong>formatting issues</strong>, or something else <strong>non substantive</strong>) – feel free to just submit a Pull Request directly!</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
-</figure>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>We want simple changes to be simple to make!
 </div>
-<p><a href="../UN-Task-Team-for-Scanner-Data/cpi-new-data-sources-handbook/issues/new/choose">Create a new issue using an issue template</a>.</p>
-<p>If you are unsure which category applies, use the <strong>Discussion / Guidance Request</strong> template. The Secretariat can help determine the most appropriate route.</p>
-<p>For PATCH issues, the Technical Secretariat will implement an approved correction.</p>
-<p>For MINOR and MAJOR issues, contributors can indicate whether they:</p>
-<ul>
-<li>intend to prepare and submit a pull request if the issue is approved;</li>
-<li>would like support developing a pull request;</li>
-<li>would like the Technical Secretariat to take the proposal forward; or</li>
-<li>are raising the proposal for discussion before deciding how it should be implemented.</li>
-</ul>
+</div>
+<div class="callout-body-container callout-body">
+<p>Small changes are trivial to make, and maintainers / project managers of the handbook will merge them in quickly.</p>
+</div>
+</div>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>You do not need to submit a pull request
+<span class="screen-reader-only">Tip</span>Cool, how do I do this?
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>You can contribute to the handbook without making changes directly in GitHub.</p>
-<p>When raising a MINOR or MAJOR issue, indicate whether you would like to develop the change yourself, work with others, or ask the Technical Secretariat to take the proposal forward.</p>
+<p>See <a href="../about/contributing.html#step-2-create-a-feature-branch-or-a-personal-fork-to-host-the-changes">Step 2</a> for more details.</p>
 </div>
 </div>
 </section>
-<section id="archiving-releases-to-zenodo" class="level2">
-<h2 class="anchored" data-anchor-id="archiving-releases-to-zenodo">Archiving releases to Zenodo</h2>
-<p>We archive selected releases of the repository in Zenodo.</p>
-<p>When the handbook has accumulated sufficient consequential changes since the previous archived version, such as a major change or a collection of minor changes, we <a href="https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository">create a new GitHub release</a>. The GitHub and Zenodo integration then <a href="https://help.zenodo.org/docs/github/archive-software/github-upload/">archives a copy of that release in Zenodo</a>.</p>
-<p>The live handbook may therefore include changes made since the latest archived and citable version. Users who need a fixed version for citation should use the relevant archived release.</p>
-<p>You can view <a href="https://github.com/UN-Task-Team-for-Scanner-Data/cpi-new-data-sources-handbook/releases">previous handbook releases</a>.</p>
-</section>
-<section id="git-workflow" class="level2">
-<h2 class="anchored" data-anchor-id="git-workflow">Git workflow</h2>
-<p>Contributions that require changes to the repository generally follow a pull request process, similar to the approach described by <a href="https://book.the-turing-way.org/community-handbook/contributing/#ch-contributing-pull-request">The Turing Way</a>.</p>
-<p>A pull request is not required for every issue. In particular, the Secretariat will normally implement straightforward PATCH corrections. For MINOR and MAJOR changes, the implementation route should be agreed through the relevant issue before substantial work begins.</p>
-</section>
-</section>
-<section id="how-to-contribute" class="level1">
-<h1>How to contribute</h1>
 <section id="step-1-start-with-an-issue" class="level2">
 <h2 class="anchored" data-anchor-id="step-1-start-with-an-issue">Step 1: Start with an issue</h2>
-<p>Before starting any work, review the open issues to see whether the topic has already been raised. If a relevant issue already exists, add any further information or participate in the existing discussion rather than creating a duplicate.</p>
-<p>If the topic has not been raised, create a new issue using the most appropriate template:</p>
+<p>Before making any changes, its a great idea to review open (and older closed) issues to see whether the topic has already been raised, discussed, is in progress or was closed. If a relevant issue already exists, add any further information or participate in the existing discussion rather than creating a duplicate.</p>
+<p>If you create a new issue, explain the change or question as clearly as possible and include relevant links, references, examples or supporting material.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>We encourage you to participate directly!
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Our issue templates will ask whether you are just raising the issue for our awareness or if you want to participate in drafting it yourself. If you are up for it, our maintainers will assign the issue to you directly after helping validate whether the idea would be accepted! If you are not, keep an eye on the issue you submitted. While we appreciate you raising issues, the Individual Contributor that eventually works on the idea you raised may ping you with questions or follow ups.</p>
+<p>Note that if your idea involves a considerable change and would require collaboration with other experts or their review before merging, our maintainers / project managers may see your idea as something that should be done as a Task Team Workstream. In this case, we will invite you to join the team!</p>
+</div>
+</div>
+</section>
+<section id="step-2-create-a-feature-branch-or-a-personal-fork-to-host-the-changes" class="level2">
+<h2 class="anchored" data-anchor-id="step-2-create-a-feature-branch-or-a-personal-fork-to-host-the-changes">Step 2: Create a ‘feature’ branch or a personal fork to host the changes</h2>
+<p>There are many ways to do this, but the simplest way is to use the <code>Edit this page</code> link (which you will see at the bottom of the table of contents on each page). <a href="#fig-edit-this-page" class="quarto-xref">Figure&nbsp;2</a> shows what this looks like.</p>
+<div id="fig-edit-this-page" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-edit-this-page-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../images/about/edit-this-page.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:30.0%">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-edit-this-page-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Example “Edit this page”
+</figcaption>
+</figure>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>What you do depends on what rights you have
+</div>
+</div>
+<div class="callout-body-container callout-body">
 <ul>
-<li><strong>Correction Request (PATCH)</strong> for non substantive corrections;</li>
-<li><strong>Content Enhancement (MINOR)</strong> for additions or improvements to existing content;</li>
-<li><strong>Handbook Change Proposal (MAJOR)</strong> for substantial methodological, structural or governance changes; or</li>
-<li><strong>Discussion / Guidance Request</strong> if you would like feedback or are unsure how the idea should be classified.</li>
+<li><p>If you’ve never contributed before and have no default rights to the main repository, GitHub will create a fork in your personal name space. You can make any changes you want there and merge them in when you are ready.</p></li>
+<li><p>If you are a member of the team in any way, you may be able to create a branch within the main repository (called a ‘feature’ branch as it includes the feature you are making).</p>
+<ul>
+<li>If you are a member of a workstream, you may create a ‘feature’ branch from the main <code>development</code> branch your team is working on as it may be a while before that <code>development</code> branch is merged into <code>main</code> and thus the content is released.</li>
+</ul></li>
 </ul>
-<p>In the issue, explain the change or question as clearly as possible and include relevant links, references, examples or supporting material.</p>
-<p>For MINOR and MAJOR changes, indicate whether you intend to submit a pull request, would like support developing one, or would prefer the Technical Secretariat to coordinate the work.</p>
-</section>
-<section id="step-2-agree-the-contribution-route" class="level2">
-<h2 class="anchored" data-anchor-id="step-2-agree-the-contribution-route">Step 2: Agree the contribution route</h2>
-<p>The appropriate route will depend on the scope and complexity of the change.</p>
-<p>For an approved PATCH issue, the Technical Secretariat will make the correction.</p>
-<p>For an approved MINOR or MAJOR issue, the contributor, Technical Secretariat or an agreed Task Team workstream can take the proposal forward. Substantial work should not begin until the scope, contribution route and review requirements have been agreed through the issue.</p>
-<p>If the agreed route involves submitting a pull request, continue to Step 3.</p>
-<p>If the Technical Secretariat will implement the change, no further GitHub action is required from the contributor unless additional information is requested.</p>
-</section>
-<section id="step-3-create-a-branch-or-fork" class="level2">
-<h2 class="anchored" data-anchor-id="step-3-create-a-branch-or-fork">Step 3: Create a branch or fork</h2>
-<p>Create a branch in the repository or a fork under your own GitHub account, depending on your access permissions and the agreed contribution route.</p>
-<p>Draft the proposed changes in the branch. If you open a pull request before the work is complete, keep the pull request in draft status until it is ready for review.</p>
+</div>
+</div>
+<section id="tips-on-making-changes-and-describing-them" class="level3">
+<h3 class="anchored" data-anchor-id="tips-on-making-changes-and-describing-them">Tips on making changes and describing them</h3>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Style consistency matters
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>When you are making changes, keep the <a href="../about/style-guide.html">style guide</a> in mind. Its always easier to write in a way that is consistent with other content rather than needing to edit it later (maintainers / project managers will ask you to make style changes if needed).</p>
+</div>
+</div>
+<p>Draft the proposed changes in your branch / fork. You can also open a Pull Request before the work is complete if you want, however please keep it in draft status until it is ready for review.</p>
 <p>Where possible:</p>
 <ul>
 <li>keep each pull request focused on the issue it is intended to address;</li>
@@ -698,10 +646,11 @@ Table&nbsp;2: Issue templates
 </div>
 </div>
 </section>
-<section id="step-4-coordinate-review-where-needed" class="level2">
-<h2 class="anchored" data-anchor-id="step-4-coordinate-review-where-needed">Step 4: Coordinate review where needed</h2>
-<p>The review requirements will depend on whether the change is classified as PATCH, MINOR or MAJOR.</p>
-<p>If reviewers do not regularly use GitHub, you can make the draft available in another format, such as <a href="https://quarto.org/docs/reference/formats/pdf.html">PDF</a> or <a href="https://quarto.org/docs/reference/formats/docx.html">Microsoft Word</a>.</p>
+</section>
+<section id="step-3-coordinate-review-where-needed" class="level2">
+<h2 class="anchored" data-anchor-id="step-3-coordinate-review-where-needed">Step 3: Coordinate review where needed</h2>
+<p>If your changes are consequential, it is best to coordinate the review of your content with an expert.</p>
+<p>Some experts in our discipline however do not regularly use GitHub, hence you can make the draft available in another format, such as <a href="https://quarto.org/docs/reference/formats/pdf.html">PDF</a> or <a href="https://quarto.org/docs/reference/formats/docx.html">Microsoft Word</a>.</p>
 <p>For example, the page metadata can be configured to render both formats:</p>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">title</span><span class="kw">:</span><span class="at"> </span><span class="st">"Article title"</span></span>
@@ -715,21 +664,114 @@ Table&nbsp;2: Issue templates
 <span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="pp">---</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>This allows an offline copy to be shared with reviewers. Any comments or edits made outside GitHub will need to be incorporated back into the relevant branch or fork before the pull request can be merged.</p>
 </section>
-<section id="step-5-submit-the-pull-request-for-review" class="level2">
-<h2 class="anchored" data-anchor-id="step-5-submit-the-pull-request-for-review">Step 5: Submit the pull request for review</h2>
-<p>When the proposed changes are ready for formal review, remove the draft status from the pull request.</p>
+<section id="step-4-submit-the-pull-request-for-review" class="level2">
+<h2 class="anchored" data-anchor-id="step-4-submit-the-pull-request-for-review">Step 4: Submit the pull request for review</h2>
+<p>When your change is ready for maintainers / project managers to review, submit the Pull Request (or remove the draft status if you have been working on a draft).</p>
 <p>In the pull request description:</p>
 <ul>
 <li>link to the relevant issue;</li>
 <li>summarise the changes made;</li>
-<li>identify the semantic versioning level;</li>
 <li>note any supporting evidence or consultation;</li>
 <li>identify any outstanding questions; and</li>
 <li>confirm the review or approval route agreed through the issue.</li>
 </ul>
-<p>The Secretariat and relevant reviewers will support the contribution through the remainder of the process. Further revisions may be requested before the changes are approved and merged.</p>
-<p>Once the relevant checks, reviews and approvals are complete, the pull request can be merged into the handbook.</p>
-<p><strong>Thank you for contributing to the handbook.</strong></p>
+<p>Project Maintainers / Project Managers will support the contribution through the remainder of the process and will merge your change in when they see it as ready. You may be asked to make further revisions before the changes are approved and merged.</p>
+</section>
+</section>
+<section id="annex-what-to-expect-of-the-interaction-process" class="level1">
+<h1>Annex: What to expect of the interaction process?</h1>
+<p>You will see a few structural things in your efforts to contribute.</p>
+<section id="semantic-versioning" class="level2">
+<h2 class="anchored" data-anchor-id="semantic-versioning">Semantic versioning</h2>
+<p>We use <a href="https://semver.org/">semantic versioning</a> to guide how changes to the handbook are classified.</p>
+<div id="tbl-contribution-categories" class="striped hover quarto-float quarto-figure quarto-figure-center anchored" data-tbl-colwidths="[15,30,25,30]">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-contribution-categories-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Categories of contribution
+</figcaption>
+<div aria-describedby="tbl-contribution-categories-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="table-striped table-hover caption-top table">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 30%">
+<col style="width: 25%">
+<col style="width: 30%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Level</th>
+<th style="text-align: left;">Examples</th>
+<th style="text-align: left;">Default route</th>
+<th style="text-align: left;">Review expectation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/UN-Task-Team-for-Scanner-Data/cpi-new-data-sources-handbook/issues?q=state%3Aopen%20label%3AMAJOR" class="highlight-patch"><strong>PATCH</strong></a></td>
+<td style="text-align: left;">Spelling, links, formatting, bibliography and other non substantive corrections</td>
+<td style="text-align: left;">Direct Pull Request</td>
+<td style="text-align: left;">Typically merged directly by Maintainers / Project Managers</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><a href="https://github.com/UN-Task-Team-for-Scanner-Data/cpi-new-data-sources-handbook/issues?q=state%3Aopen%20label%3AMINOR" class="highlight-minor"><strong>MINOR</strong></a></td>
+<td style="text-align: left;">Case study, expanded example, factual clarification, evidence or code revision that does not change the overall scope</td>
+<td style="text-align: left;">Issue on the topic followed by a pull request</td>
+<td style="text-align: left;">Relevant peer review by other contributors with the same expertise and approval by maintainers / project managers.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><a href="https://github.com/UN-Task-Team-for-Scanner-Data/cpi-new-data-sources-handbook/issues?q=state%3Aopen%20label%3APATCH" class="highlight-major"><strong>MAJOR</strong></a></td>
+<td style="text-align: left;">New chapter, substantial methodological change, new data source, major restructuring or new training module</td>
+<td style="text-align: left;">Issue on the topic that may be followed by by a Task Team workstream or even steering committee participation.</td>
+<td style="text-align: left;">Detailed review by other experts with the expertise. Likely collaboration with multiple other contributors is possible through a workstream.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+</section>
+<section id="issue-templates" class="level2">
+<h2 class="anchored" data-anchor-id="issue-templates">Issue templates</h2>
+<p>There are several issue types we may use to classify the content.</p>
+<div id="tbl-issue-templates" class="striped hover quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-issue-templates-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;2: Issue templates
+</figcaption>
+<div aria-describedby="tbl-issue-templates-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="table-striped table-hover caption-top table">
+<colgroup>
+<col style="width: 35%">
+<col style="width: 64%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Issue template</th>
+<th style="text-align: left;">When to use it</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>Correction Request (<span class="highlight-patch">PATCH</span>)</strong></td>
+<td style="text-align: left;">Spelling mistakes, broken links, formatting problems, citation updates and other non substantive corrections</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Content Enhancement (<span class="highlight-minor">MINOR</span>)</strong></td>
+<td style="text-align: left;">Additional examples, case studies, explanations, evidence, resources or code that do not change the overall scope of the handbook</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>Handbook Change Proposal (<span class="highlight-major">MAJOR</span>)</strong></td>
+<td style="text-align: left;">New methodology, a new chapter, substantial restructuring, a new data source or changes to existing recommendations</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>Discussion / Guidance Request</strong></td>
+<td style="text-align: left;">Questions, early ideas or proposals that require discussion before the appropriate route can be determined</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
 
 
 </section>
@@ -1262,11 +1304,14 @@ Table&nbsp;2: Issue templates
   </script>
 <nav class="page-navigation" aria-label="Page">
   <div class="nav-page nav-page-previous">
-      <a href="../about/how-we-work.html" class="pagination-link" aria-label="How we work">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">How we work</span>
+      <a href="../about/governance.html" class="pagination-link" aria-label="Governance within the context of the broader community">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Governance within the context of the broader community</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
+      <a href="../about/contribution-management.html" class="pagination-link" aria-label="Project Managing contributions">
+        <span class="nav-page-text">Project Managing contributions</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
   </div>
 </nav>
 </div> <!-- /content -->
